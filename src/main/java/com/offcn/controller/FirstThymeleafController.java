@@ -58,5 +58,8 @@ public class FirstThymeleafController {
         if(true){
             System.out.println("嗯呐");
 
-        }    }
+        }  else {
+            System.out.println("不好");
+        }
+    }
 }
