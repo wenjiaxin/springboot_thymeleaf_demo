@@ -51,4 +51,9 @@ public class FirstThymeleafController {
         return "index";
 
     }
+
+    //add by 温佳鑫
+    public void fun1(){
+
+    }
 }
