@@ -1,0 +1,9 @@
+
+#修改application.yml增加Thymeleaf相关配置
+spring:
+  thymeleaf:
+    cache: false
+  #增加国际化消息属性设置
+  messages:
+    encoding: UTF-8
+    basename: message_zh_CN

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{title}"></title>
+</head>
+<body>
+<!--通过 EL 表达式将 Model 中的数据填充到 h1 标签中-->
+<h1 th:text="${message}"></h1>
+<span th:text="#{message1}"></span>
+<span th:text="#{message2}"></span>
+
+
+<table>
+    <th >Id</th>
+    <th >Name</th>
+    <th>Age</th>
+    <th>index</th>
+    <tr th:each="person,iterStat: ${list}">
+        <td th:text="${person.id}"></td>
+        <td th:text="${person.name}"></td>
+        <td th:text="${person.age}"></td>
+        <td th:text="${iterStat.index}"></td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
