@@ -54,6 +54,9 @@ public class FirstThymeleafController {
 
     //add by 温佳鑫
     public void fun1(){
+        System.out.println("你好呀");
+        if(true){
+            System.out.println("嗯呐");
 
-    }
+        }    }
 }
